@@ -1,0 +1,29 @@
+{
+	title: "Steam Production",
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"aafbaceb"
+	],
+	tasks: [{
+		uid: "7802a897",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	},
+	{
+		uid: "0877d3e2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3"
+		}]
+	},
+	{
+		uid: "9ed37f41",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "Bronzeeeeee!!!!",
+	x: 14.5d,
+	y: 9.5d,
+	dependencies: [
+		"0ea124a9",
+		"4d902c41",
+		"77770458"
+	],
+	tasks: [{
+		uid: "bd5d1e9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}],
+		count: 63L
+	},
+	{
+		uid: "b941348e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBronze"
+				}
+			}
+		}],
+		count: 63L
+	}],
+	rewards: [{
+		uid: "deed61dc",
+		type: "item",
+		item: "gregtech:meta_ingot 1 260",
+		count: 32
+	}]
+}

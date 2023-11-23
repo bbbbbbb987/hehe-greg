@@ -1,0 +1,61 @@
+{
+	x: 17.5d,
+	y: 8.0d,
+	dependencies: [
+		"4b382dd4",
+		"a37d55b5"
+	],
+	tasks: [{
+		uid: "ed719005",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	},
+	{
+		uid: "eb16c566",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f76bb12d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2063"
+		}],
+		count: 132L
+	},
+	{
+		uid: "6065284b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2525"
+		}],
+		count: 132L
+	},
+	{
+		uid: "eddb1bcf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2524"
+		}],
+		count: 132L
+	},
+	{
+		uid: "d966bf10",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 352"
+		}],
+		count: 132L
+	}],
+	rewards: [{
+		uid: "c14c1f12",
+		type: "item",
+		item: "gregtech:metal_casing 1 1",
+		count: 21
+	}]
+}

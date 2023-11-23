@@ -1,0 +1,43 @@
+{
+	x: 14.5d,
+	y: 5.5d,
+	dependencies: [
+		"adcaaf07"
+	],
+	tasks: [{
+		uid: "52a4c8f1",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	},
+	{
+		uid: "dae7c2a8",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	},
+	{
+		uid: "073488d4",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9c09c586",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 32
+	}]
+}

@@ -1,0 +1,105 @@
+{
+	title: "Bronze",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:log",
+		count: 32
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 25",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 2517",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 324",
+		count: 16
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 16
+	},
+	{
+		item: "minecraft:chest",
+		count: 16
+	},
+	{
+		xp: 1000,
+		type: "xp"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:purple_shulker_box"
+		}
+	},
+	{
+		item: "minecraft:diamond",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 516",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 519",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 381",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 401",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		item: "minecraft:flint",
+		count: 16
+	},
+	{
+		item: "minecraft:coal 1 1",
+		count: 64,
+		weight: 2
+	},
+	{
+		item: "minecraft:paper",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_ingot 1 112",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_dust 1 386",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_dust 1 103",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 1068",
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "usefulbackpacks:backpack"
+		}
+	}]
+}

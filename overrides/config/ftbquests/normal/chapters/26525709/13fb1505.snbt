@@ -1,0 +1,65 @@
+{
+	title: "Creosote Oil And Charcoal",
+	x: 12.5d,
+	y: 7.0d,
+	text: [
+		"Charcoal is better for making steel than coal, (and everything for smelting),  it is cheaper and easer to get, but you will need this multi machine to make it. Good luck!"
+	],
+	dependencies: [
+		"db54b239"
+	],
+	tasks: [{
+		uid: "776587c0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1017"
+		}],
+		count: 2L
+	},
+	{
+		uid: "08743dc6",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 49L
+	},
+	{
+		uid: "f67a7476",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sand"
+				}
+			}
+		}],
+		count: 980L
+	},
+	{
+		uid: "01dba721",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 392L
+	}],
+	rewards: [{
+		uid: "09dc5971",
+		type: "item",
+		item: "gregtech:metal_casing 1 8",
+		count: 40
+	},
+	{
+		uid: "8487e326",
+		type: "random",
+		table: 0
+	}]
+}

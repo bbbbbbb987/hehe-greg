@@ -1,0 +1,97 @@
+{
+	title: "Flint Tools",
+	x: 8.5d,
+	y: 5.5d,
+	text: [
+		"This Modpack use Flint instead Wood",
+		"Get stickes by breaking leaves",
+		"Get flint by either breaking gravel or crafting it"
+	],
+	tasks: [{
+		uid: "2fc7d29a",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 16L
+	},
+	{
+		uid: "eb17d1d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:knife_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74eb6969",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:spade_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8b9318c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:axe_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ac634224",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:pickaxe_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "19e1de2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:hoe_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6ec0f5a",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "df30e548",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "be8b646e",
+		type: "item",
+		item: "minecraft:flint",
+		count: 16
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	title: "You Will Need Tons Of Iron",
+	x: 13.5d,
+	y: 8.0d,
+	text: [
+		"In gregtech there isn't just one iron ore but many, all these ores smelt into iron"
+	],
+	dependencies: [
+		"db54b239"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "95523e9a",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}],
+		count: 64L
+	},
+	{
+		uid: "ce62838c",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_granitic_mineral_sand_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e8defab3",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magnetite_0"
+		}],
+		count: 64L,
+		consume_items: false
+	},
+	{
+		uid: "331ea967",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_iron_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "523662ae",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e66e14f0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_yellow_limonite_0"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "9bc98f3c",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 64
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 13.5d,
+	y: 11.0d,
+	dependencies: [
+		"db54b239"
+	],
+	tasks: [{
+		uid: "9d8773d0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_redstone_0"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "9b32451d",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 64
+	}]
+}

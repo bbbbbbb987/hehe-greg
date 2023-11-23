@@ -1,0 +1,37 @@
+{
+	title: "Tanned Leather",
+	x: 12.5d,
+	y: 12.0d,
+	dependencies: [
+		"a46cbfb9"
+	],
+	tasks: [{
+		uid: "e36cfbbb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tannedleather"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ef568a71",
+		type: "item",
+		items: [{
+			item: "contenttweaker:boundleather"
+		}],
+		count: 16L
+	},
+	{
+		uid: "91f597f9",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a7dc4efa",
+		type: "random",
+		table: 0
+	}]
+}

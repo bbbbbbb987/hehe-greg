@@ -1,0 +1,24 @@
+{
+	title: "Chests",
+	x: 9.5d,
+	y: 4.5d,
+	text: [
+		"Very important but also very expencive"
+	],
+	dependencies: [
+		"a27bd8b3"
+	],
+	tasks: [{
+		uid: "3b69b469",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e99ea881",
+		type: "random",
+		table: 0
+	}]
+}

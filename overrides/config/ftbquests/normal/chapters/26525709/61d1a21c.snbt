@@ -1,0 +1,22 @@
+{
+	title: "Wrought in hell!",
+	x: 11.5d,
+	y: 8.0d,
+	dependencies: [
+		"6bf81e2a"
+	],
+	tasks: [{
+		uid: "c9b6970d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d6bb11a9",
+		type: "item",
+		item: "gregtech:meta_ingot 1 335",
+		count: 32
+	}]
+}

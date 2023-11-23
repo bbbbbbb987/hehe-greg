@@ -1,0 +1,208 @@
+{
+	title: "Wooden tools",
+	x: 12.5d,
+	y: 5.5d,
+	dependencies: [
+		"d736132a"
+	],
+	tasks: [{
+		uid: "1b8ee7b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:shovel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 3,
+					Durability: 56,
+					HarvestLevel: 0,
+					Attack: 1.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 3,
+					Durability: 56,
+					HarvestLevel: 0,
+					Attack: 1.5f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ccff9a99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:hatchet",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 3,
+					Durability: 56,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 3,
+					Durability: 56,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"weapon",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "64b8c57f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 3,
+					Durability: 56,
+					HarvestLevel: 0,
+					Attack: 1.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 3,
+					Durability: 56,
+					HarvestLevel: 0,
+					Attack: 1.5f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bf61bcdc",
+		type: "item",
+		items: [{
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "wood"
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "c46c4d1e",
+		type: "choice",
+		table: 0
+	}]
+}

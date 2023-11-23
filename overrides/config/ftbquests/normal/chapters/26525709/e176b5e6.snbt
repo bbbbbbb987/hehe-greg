@@ -1,0 +1,38 @@
+{
+	x: 15.5d,
+	y: 5.0d,
+	dependencies: [
+		"c9011890",
+		"4e38b2bf"
+	],
+	tasks: [{
+		uid: "57bc8079",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "steel"
+			}
+		}]
+	},
+	{
+		uid: "5f9c458f",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "steel"
+			}
+		}]
+	},
+	{
+		uid: "e214acc0",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "steel"
+			}
+		}]
+	}]
+}

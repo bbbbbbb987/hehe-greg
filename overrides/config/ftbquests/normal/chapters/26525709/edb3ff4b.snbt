@@ -1,0 +1,82 @@
+{
+	title: "Tinkers' Construct",
+	x: 10.5d,
+	y: 5.5d,
+	text: [
+		"Use these blocks to make your fist tool",
+		"",
+		"   - Stencil table is used for making stencils.",
+		"",
+		"   - Part builder is used for making tool part from stencils and early resources, later parts are made from casting.",
+		"",
+		"   - Tool station is used to assemble, and modify some-not all-tools. To assemble all tools use the Tool Forge"
+	],
+	dependencies: [
+		"a27bd8b3"
+	],
+	tasks: [{
+		uid: "5cfbcbb6",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "831d299f",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "chisel:planks-spruce",
+					Count: 1b,
+					Damage: 2s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "d159da21",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "69385d25",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "biomesoplenty:log_3",
+					Count: 1b,
+					Damage: 5s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "db2b83e6",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0ac0cd9e",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "e7a55190",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 16
+	}]
+}

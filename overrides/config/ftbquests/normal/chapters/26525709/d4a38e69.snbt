@@ -1,0 +1,24 @@
+{
+	x: 15.5d,
+	y: 12.0d,
+	dependencies: [
+		"a6ece094",
+		"33a4f96a"
+	],
+	tasks: [{
+		uid: "ec9d3bea",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 2517"
+		}],
+		count: 64L
+	},
+	{
+		uid: "3cd18405",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}],
+		count: 64L
+	}]
+}

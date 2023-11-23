@@ -1,0 +1,25 @@
+{
+	x: 16.5d,
+	y: 13.0d,
+	dependencies: [
+		"c2820b8e",
+		"92aee3ef",
+		"c20f4f20"
+	],
+	tasks: [{
+		uid: "9bf9c2f2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1068"
+		}],
+		count: 32L
+	},
+	{
+		uid: "555b9639",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1068"
+		}],
+		count: 16L
+	}]
+}

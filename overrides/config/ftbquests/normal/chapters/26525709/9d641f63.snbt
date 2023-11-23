@@ -1,0 +1,36 @@
+{
+	title: "Wooden Fluid Pipes",
+	x: 12.5d,
+	y: 9.0d,
+	dependencies: [
+		"1dc5696c"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "6cc3f754",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_large 1 1648"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d68499b7",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_large 1 1617"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8b60750f",
+		type: "item",
+		item: "gregtech:fluid_pipe_large 1 1617",
+		count: 16
+	},
+	{
+		uid: "2fd2859e",
+		type: "choice",
+		table: 0
+	}]
+}

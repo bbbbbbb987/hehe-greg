@@ -1,0 +1,197 @@
+{
+	title: "Better tools",
+	x: 11.5d,
+	y: 10.0d,
+	dependencies: [
+		"61d1a21c"
+	],
+	tasks: [{
+		uid: "7e9966ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:hammer",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 383,
+					ToolSpeed: 6.0f,
+					AttackDamage: 3.0f,
+					LastCraftingUse: 824887796,
+					Durability: 0,
+					Material: "gregtech:wrought_iron",
+					HarvestLevel: 2,
+					AttackSpeed: -3.0f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "641115db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 383,
+					AttackDamage: 0.0f,
+					Durability: 0,
+					Material: "gregtech:wrought_iron",
+					AttackSpeed: -2.6000001f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d9685b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:screwdriver",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 383,
+					AttackDamage: 1.0f,
+					LastCraftingUse: 824876195,
+					Durability: 0,
+					Material: "gregtech:wrought_iron",
+					AttackSpeed: 2.8f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "91ec278d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:wrench",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 383,
+					ToolSpeed: 6.0f,
+					AttackDamage: 3.0f,
+					Durability: 0,
+					Material: "gregtech:wrought_iron",
+					HarvestLevel: 2,
+					AttackSpeed: -3.0f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0734d0c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:wire_cutter",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 383,
+					ToolSpeed: 6.0f,
+					AttackDamage: 1.0f,
+					Durability: 0,
+					Material: "gregtech:wrought_iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.6000001f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ceadf41d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:saw",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {
+					HarvestIce: 1b
+				},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 383,
+					AttackDamage: 1.0f,
+					Durability: 0,
+					Material: "gregtech:wrought_iron",
+					AttackSpeed: -2.8f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "463ec564",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:file",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 383,
+					AttackDamage: 0.0f,
+					LastCraftingUse: 824887796,
+					Durability: 0,
+					Material: "gregtech:wrought_iron",
+					AttackSpeed: -2.6000001f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa7c5c48",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0f18465a",
+		type: "random",
+		table: 0
+	}]
+}

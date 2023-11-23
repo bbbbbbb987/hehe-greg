@@ -1,0 +1,28 @@
+{
+	x: 13.5d,
+	y: 13.0d,
+	dependencies: [
+		"db54b239"
+	],
+	tasks: [{
+		uid: "0ac45c47",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sulfur_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b5a1aa84",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 103"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "79e5bfd1",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "Alloy Smelter Molds",
+	x: 16.5d,
+	y: 11.0d,
+	dependencies: [
+		"a33bbd42"
+	],
+	tasks: [{
+		uid: "a6c2223e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 11"
+		}]
+	},
+	{
+		uid: "c2b5ccbd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12"
+		}]
+	},
+	{
+		uid: "fb8b424b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 16"
+		}]
+	},
+	{
+		uid: "ac81382c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 17"
+		}]
+	},
+	{
+		uid: "422f3eac",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 18"
+		}]
+	},
+	{
+		uid: "8a1f5f31",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 19"
+		}]
+	},
+	{
+		uid: "4297f917",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 23"
+		}]
+	}]
+}

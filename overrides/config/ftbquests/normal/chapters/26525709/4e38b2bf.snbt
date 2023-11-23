@@ -1,0 +1,37 @@
+{
+	x: 14.5d,
+	y: 4.5d,
+	dependencies: [
+		"adcaaf07"
+	],
+	tasks: [{
+		uid: "55675dd1",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	},
+	{
+		uid: "e39419f6",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	},
+	{
+		uid: "c2547bec",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}]
+}

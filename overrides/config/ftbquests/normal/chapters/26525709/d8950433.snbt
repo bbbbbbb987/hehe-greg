@@ -1,0 +1,53 @@
+{
+	x: 11.5d,
+	y: 12.0d,
+	dependencies: [
+		"da129c32"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "5318c438",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "usefulbackpacks:backpack",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2070064",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "usefulbackpacks:backpack",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3fe55752",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "usefulbackpacks:backpack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "757bf405",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "usefulbackpacks:backpack"
+		}
+	}]
+}

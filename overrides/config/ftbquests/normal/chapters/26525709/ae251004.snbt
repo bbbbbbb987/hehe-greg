@@ -1,0 +1,21 @@
+{
+	x: 17.5d,
+	y: 9.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "68693875",
+		type: "item",
+		items: [{
+			item: "gregtech:rubber_log"
+		}],
+		count: 64L
+	},
+	{
+		uid: "1556dd3a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 438"
+		}],
+		count: 64L
+	}]
+}

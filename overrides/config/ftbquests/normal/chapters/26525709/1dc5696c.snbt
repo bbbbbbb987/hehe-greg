@@ -1,0 +1,70 @@
+{
+	x: 9.5d,
+	y: 9.0d,
+	text: [
+		"Place down the 'Primitave Water Pump' and shift-right-click to see a preview of the full multiblock",
+		"doesn't need to be near water",
+		"Use a pipe to extract water ",
+		"Different biomes make water at different rate",
+		"",
+		"- Ocean. River: 1000 L/ s",
+		"",
+		"- Swamp: 800 L/  s",
+		"",
+		"- Jungle: 350 L/ s",
+		"",
+		"- Snowy: 300 L/ s",
+		"",
+		"- Plains, Forest: 250L/ s",
+		"",
+		"- Taiga: 175L/ s",
+		"",
+		"- Beach: 170 L/ s",
+		"",
+		"- Other: 100 L/ s"
+	],
+	dependencies: [
+		"a27bd8b3",
+		"13fb1505"
+	],
+	tasks: [{
+		uid: "f6ffa82d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1648"
+		}]
+	},
+	{
+		uid: "200f977e",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "bf24b937",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_103"
+		}],
+		count: 10L
+	},
+	{
+		uid: "9b227de6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1649"
+		}]
+	}],
+	rewards: [{
+		uid: "1dbdff93",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "751842e0",
+		type: "random",
+		table: 0
+	}]
+}

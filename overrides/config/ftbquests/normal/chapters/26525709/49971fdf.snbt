@@ -1,0 +1,37 @@
+{
+	title: "Steam Production",
+	x: 15.5d,
+	y: 9.0d,
+	dependencies: [
+		"6dc3d9f8",
+		"9d641f63"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1560c266",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3"
+		}]
+	},
+	{
+		uid: "975668bc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 5"
+		}]
+	},
+	{
+		uid: "3dd8ccf0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1bfb3506",
+		type: "item",
+		item: "gregtech:fluid_pipe_normal 1 2037",
+		count: 24
+	}]
+}

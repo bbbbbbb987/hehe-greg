@@ -1,0 +1,20 @@
+{
+	title: "LV ",
+	x: 19.0d,
+	y: 11.5d,
+	shape: "gear",
+	dependencies: [
+		"24d5ece5",
+		"b1b00a30",
+		"f335b203"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d31a667e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}],
+		count: 8L
+	}]
+}

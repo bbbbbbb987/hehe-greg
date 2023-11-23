@@ -1,0 +1,62 @@
+{
+	x: 13.5d,
+	y: 9.0d,
+	dependencies: [
+		"db54b239"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1eed613b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "39148d6c",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bornite_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "9fec7646",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_malachite_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "899e05e8",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tetrahedrite_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d9903cf2",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcocite_0"
+		}],
+		count: 64L
+	},
+	{
+		uid: "8800c934",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcopyrite_0"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ca1b0906",
+		type: "item",
+		item: "gregtech:meta_ingot 1 25",
+		count: 64
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	title: "Tool Pattern",
+	x: 11.5d,
+	y: 5.5d,
+	dependencies: [
+		"edb3ff4b"
+	],
+	tasks: [{
+		uid: "74bc406b",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "2274424a",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "8a4515ef",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "9b6c8cd1",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "a96d41ef",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6929a541",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "Get Wood Or Get Good!",
+	x: 9.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"44fe6285"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "832b2157",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3565e32d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 100000L
+			},
+			Damage: 466s
+		}
+	},
+	{
+		uid: "9f22221d",
+		type: "item",
+		item: "minecraft:log",
+		count: 64
+	}]
+}

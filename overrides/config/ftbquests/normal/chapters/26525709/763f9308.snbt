@@ -1,0 +1,38 @@
+{
+	title: "Youl Need ALOT More Than This",
+	x: 13.5d,
+	y: 7.0d,
+	text: [
+		"	Instead of using iron to make a knife, use flint!"
+	],
+	dependencies: [
+		"db54b239"
+	],
+	tasks: [{
+		uid: "1867405d",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}],
+		count: 64L
+	},
+	{
+		uid: "5e16d1be",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "50f20d1f",
+		type: "item",
+		item: "minecraft:brick",
+		count: 64
+	},
+	{
+		uid: "9ba3358d",
+		type: "random",
+		table: 0
+	}]
+}

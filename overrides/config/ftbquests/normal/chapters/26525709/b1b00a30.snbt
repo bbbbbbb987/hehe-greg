@@ -1,0 +1,39 @@
+{
+	x: 17.5d,
+	y: 11.0d,
+	dependencies: [
+		"92aee3ef"
+	],
+	tasks: [{
+		uid: "18a3b1f4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 517"
+		}],
+		count: 32L
+	},
+	{
+		uid: "5df9ee47",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_bolt 1 324"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f904af57",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 25"
+		}],
+		count: 96L
+	},
+	{
+		uid: "19599afe",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}],
+		count: 32L
+	}]
+}

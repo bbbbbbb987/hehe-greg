@@ -1,0 +1,25 @@
+{
+	x: 15.5d,
+	y: 7.0d,
+	shape: "gear",
+	dependencies: [
+		"23709f1a",
+		"763f9308"
+	],
+	tasks: [{
+		uid: "62885e4b",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing"
+		}],
+		count: 4L
+	},
+	{
+		uid: "510138c9",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 1"
+		}],
+		count: 4L
+	}]
+}

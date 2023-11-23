@@ -1,0 +1,7 @@
+{
+	title: "LV greg",
+	icon: "gregtech:machine 1 635",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

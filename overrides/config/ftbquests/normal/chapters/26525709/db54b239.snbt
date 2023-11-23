@@ -1,0 +1,58 @@
+{
+	title: "Upgrades People! Upgrades!",
+	x: 13.5d,
+	y: 6.0d,
+	text: [
+		"Instead of making a whole other tool, put the tool in the 'Tool station', and put the tool part in the modifyer slots, and BAM your new and upgraded tool."
+	],
+	dependencies: [
+		"258a02b8"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "713d97cc",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	},
+	{
+		uid: "d5f1a8fe",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	},
+	{
+		uid: "69b78352",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	},
+	{
+		uid: "d02ea62d",
+		type: "item",
+		items: [{
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "stone"
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a74539d1",
+		type: "choice",
+		table: 0
+	}]
+}

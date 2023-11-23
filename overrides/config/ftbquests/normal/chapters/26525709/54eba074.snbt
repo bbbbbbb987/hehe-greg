@@ -1,0 +1,17 @@
+{
+	title: "Holy Hell You Will Need ALOT Of This",
+	x: 18.5d,
+	y: 8.0d,
+	dependencies: [
+		"e4acf308",
+		"6bf81e2a"
+	],
+	tasks: [{
+		uid: "6332fa96",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 324"
+		}],
+		count: 64L
+	}]
+}

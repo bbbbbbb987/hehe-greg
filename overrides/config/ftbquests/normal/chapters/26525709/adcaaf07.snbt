@@ -1,0 +1,52 @@
+{
+	x: 13.5d,
+	y: 5.0d,
+	dependencies: [
+		"db54b239"
+	],
+	tasks: [{
+		uid: "236c5094",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "485bf3a5",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 18L
+	},
+	{
+		uid: "e3ca9ed5",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ea66e267",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 104L,
+		consume_items: false,
+		ignore_damage: true
+	},
+	{
+		uid: "b33e54bd",
+		type: "fluid",
+		fluid: "lava",
+		amount: 4000
+	}],
+	rewards: [{
+		uid: "287d2ef5",
+		type: "item",
+		item: "tconstruct:seared 1 3",
+		count: 12
+	}]
+}
