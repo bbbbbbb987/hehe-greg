@@ -34,14 +34,15 @@ var loc = "pressureChamberlv";
 val pressureChamberlv = Builder.start(loc)  # Bulder.start("name above eg: pressureChamber_lv", meta ID)
         .withPattern(function(controller as IControllerTile) as IBlockPattern {
                 return FactoryBlockPattern.start()
-                .aisle("CCC", "CCC", "CCC") # aisle though it should be called array
-                .aisle("CCC", "C C", "CMC")
-                .aisle("CSC", "CCC", "CCC")
+                .aisle("CCC", "CCC", "CCC", "CCC") # aisle though it should be called array
+                .aisle("CCC", "C C", "C C", "CMC")
+                .aisle("CSC", "CCC", "CCC", "CCC")
+                     # row 1,  row 2, row 3  row 4?
 
                 .where('S', controller.self()) 
-                .where('M', controller.autoAbilities(false, false, false, false, false, false, true)) 
+                .where('M', controller.autoAbilities(false, false, false, false, false, false, true))
                 .where(' ', CTPredicate.getAir()) 
-                .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:3>) | controller.autoAbilities(true, false, true, true, true, false, false))
+                .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:1:1>) | controller.autoAbilities(true, false, true, true, true, false, false))
                 .build();} as IPatternBuilderFunction)
 
                 .withRecipeMap(
@@ -50,7 +51,7 @@ val pressureChamberlv = Builder.start(loc)  # Bulder.start("name above eg: press
                         .maxFluidInputs(1) # sets max fluid input to the multiblock to 1
                         .maxOutputs(1) #sets max output to the multiblock to 1
                         .build()) # builds, finishing the set above        
-                .withBaseTexture(<metastate:gregtech:metal_casing:5>)
+                .withBaseTexture(<metastate:gregtech:metal_casing:1>)
                 .buildAndRegister();
 
 pressureChamberlv.hasMaintenanceMechanics = true; # Maintenence is true
